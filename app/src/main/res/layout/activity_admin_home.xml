@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:text="Accueil Administration"
+            android:textSize="24sp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/btnConsultAbsences"
+            android:text="Consulter les absences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/btnManageAbsences"
+            android:text="Gérer les absences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/btnJustifyAbsences"
+            android:text="Justification des absences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/btnManageStudents"
+            android:text="Gérer les élèves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</LinearLayout>

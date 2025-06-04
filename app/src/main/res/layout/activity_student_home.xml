@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+                android:id="@+id/tvAppName"
+                android:text="Dion’t Be Late"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <!-- Icône menu hamburger à droite -->
+        <ImageView
+                android:id="@+id/ivMenu"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:contentDescription="Menu"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+
+    <TextView
+            android:id="@+id/tvProfileName"
+            android:text="Profil : Jean Dupont"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <!-- Semestre -->
+    <TextView
+            android:id="@+id/tvSemester"
+            android:text="Semestre : 2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+            android:id="@+id/tvAbsNonJust"
+            android:text="Absences non justifiées : 3"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+            android:id="@+id/tvLateNonJust"
+            android:text="Retards non justifiés : 1"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+            android:id="@+id/tvAbsJust"
+            android:text="Absences justifiées : 2"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <Button
+            android:id="@+id/btnSeeCalendar"
+            android:text="Voir le calendrier des absences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</LinearLayout>
